@@ -3,6 +3,7 @@ package com.ramonvos.tests;
 
 import com.ramonvos.constants.Constants;
 import com.ramonvos.pages.LoginPage;
+import com.ramonvos.selenium.ValidationResult;
 import com.ramonvos.selenium.WaitForElement;
 import com.ramonvos.webdriver.TestBase;
 
@@ -15,7 +16,7 @@ public class LoginTests extends TestBase {
     LoginPage objLogin;
 
     @Test
-    public void RealizarLoginSucesso() {
+    public void TEST_RealizarLoginSucesso() {
 
         objLogin = new LoginPage();
 
@@ -55,7 +56,7 @@ public class LoginTests extends TestBase {
 
         objLogin.LogIn("teste23342@teste.com", Constants.PASSWORD);
 
-        Assert.assertEquals(objLogin.msgErro.getText(), "Email ou senha incorretos. Saiba Mais");
+        ValidationResult.AssertTextInElement(objLogin.msgErro, "Email ou senha incorretos. Saiba Mais");
 
     }
 
@@ -66,7 +67,7 @@ public class LoginTests extends TestBase {
 
         objLogin.LogIn(Constants.USERNAME, "8888");
 
-        Assert.assertEquals(objLogin.msgErro.getText(), "Email ou senha incorretos. Saiba Mais");
+        ValidationResult.AssertTextInElement(objLogin.msgErro, "Email ou senha incorretos. Saiba Mais");
 
     }
 
@@ -77,22 +78,22 @@ public class LoginTests extends TestBase {
 
         objLogin.LogIn("teste555555aa@teste.com", "123456");
 
-        Thread.sleep(2000);
-        Assert.assertEquals(objLogin.msgErro.getText(), "Email ou senha incorretos. Saiba Mais");
+
+        ValidationResult.AssertTextInElement(objLogin.msgErro, "Email ou senha incorretos. Saiba Mais");
 
     }
 
 
 
     @Test
-    public void RealizarLoginLogout() {
+    public void TEST_RealizarLoginLogout() {
 
         objLogin = new LoginPage();
 
         objLogin.LogIn("avaliacao_qa_samba@sambatech.com.br","123456789").LogOut();
 
 
-        Assert.assertEquals(objLogin.btnEntrar.isDisplayed(), true);
+        ValidationResult.ElementIsVisible(objLogin.btnEntrar);
 
     }
 }

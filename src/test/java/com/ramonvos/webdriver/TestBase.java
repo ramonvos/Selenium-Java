@@ -13,7 +13,7 @@ public class TestBase {
 
 
     public static WebDriver driver;
-    @BeforeClass
+    @BeforeTest
     public void InitializeDriver(){
 
         if(driver == null){
@@ -24,6 +24,11 @@ public class TestBase {
         }
 
     }
+    @AfterTest
+    public void CloseDriver(){
+        driver.quit();
+    }
+
 
     public void GetBrowser(String browser){
         if(browser.equals(BrowserType.CHROME_DRIVER.toString())){
@@ -56,9 +61,6 @@ public class TestBase {
         return options;
     }
 
-    @AfterClass
-    public void CloseDriver(){
-        driver.close();
-    }
+
 
 }

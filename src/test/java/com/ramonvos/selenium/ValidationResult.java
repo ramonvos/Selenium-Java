@@ -5,7 +5,7 @@ import org.testng.Assert;
 
 public class ValidationResult {
 
-    public static void AssertTextInElement(WebElement element ,String text){
+    public static void AssertTextInElement(WebElement element, String text){
         WaitForElement.WaitTextPresentInElement(element,text);
         Assert.assertEquals(element.getText(), text);
     }
