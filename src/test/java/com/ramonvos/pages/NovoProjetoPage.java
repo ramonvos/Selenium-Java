@@ -2,16 +2,15 @@ package com.ramonvos.pages;
 
 import com.ramonvos.selenium.SeleniumHelpers;
 import com.ramonvos.selenium.WaitForElement;
-import com.ramonvos.webdriver.TestBase;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class NovoProjetoPage {
+public class NovoProjetoPage extends PageObject {
 
-    public NovoProjetoPage(){
+    public NovoProjetoPage(WebDriver driver){
 
-        PageFactory.initElements(TestBase.driver, this);
+        super(driver);
     }
 
     @FindBy(xpath = "//a[@id='navbar-project-name']/b")
@@ -36,25 +35,31 @@ public class NovoProjetoPage {
     public WebElement msgSucesso;// Não existe na tela
 
 
-    public NovoProjetoPage AcessarNovoProjeto() {
+    public NovoProjetoPage acessarNovoProjeto() {
 
-        WaitForElement.WaitForElementClickable(menuProject);
+        WaitForElement.waitForElementClickable(menuProject);
 
-        SeleniumHelpers.MoteToElementAndClick(menuProject);
-        SeleniumHelpers.ClickButton(linkNovoProjeto);
+        SeleniumHelpers.moteToElementAndClick(menuProject);
+        SeleniumHelpers.clickButton(linkNovoProjeto);
 
-        return new NovoProjetoPage();
+        WaitForElement.waitForElementClickable(btnCriarProjeto);
+
+        return new NovoProjetoPage(driver);
 
     }
 
-    public NovoProjetoPage PreencherNovoProjeto(String nome, String descricao){
+    public NovoProjetoPage preencherNovoProjeto(String nome, String descricao){
 
-        SeleniumHelpers.TypeInTextBox(txtNomeProjeto,nome);
-        SeleniumHelpers.TypeInTextBox(txtDescricaoProjeto,descricao);
+        SeleniumHelpers.typeInTextBox(txtNomeProjeto,nome);
+        SeleniumHelpers.typeInTextBox(txtDescricaoProjeto,descricao);
 
-        SeleniumHelpers.ClickButton(btnCriarProjeto);
+        return new NovoProjetoPage(driver);
+    }
 
-        return new NovoProjetoPage();
+    public NovoProjetoPage salvarNovoProjeto(){
+        SeleniumHelpers.clickButton(btnCriarProjeto);
+
+        return new NovoProjetoPage(driver);
     }
 
 }

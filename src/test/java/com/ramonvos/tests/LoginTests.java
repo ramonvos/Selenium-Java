@@ -16,84 +16,87 @@ public class LoginTests extends TestBase {
     LoginPage objLogin;
 
     @Test
-    public void TEST_RealizarLoginSucesso() {
+    public void TEST_realizarLoginSucesso() {
 
-        objLogin = new LoginPage();
+        objLogin = new LoginPage(driver);
 
-        objLogin.LogIn(Constants.USERNAME, Constants.PASSWORD);
+        objLogin.logIn(Constants.USERNAME, Constants.PASSWORD);
 
-        WaitForElement.WaitForElementClickable(objLogin.menuUsuario);
+        WaitForElement.waitForElementClickable(objLogin.menuDashboard);
 
-        Assert.assertEquals(objLogin.menuUsuario.getText(), "Automação Samba - Teste QA");
+        ValidationResult.assertTextInElement(objLogin.menuDashboard, "Painel");
+
+
 
     }
 
     @Test
-    public void TEST_RealizarLoginEmailNaoInformado() {
+    public void TEST_realizarLoginEmailNaoInformado() {
 
-        objLogin = new LoginPage();
+        objLogin = new LoginPage(driver);
 
-        objLogin.LogIn("", Constants.PASSWORD);
+        objLogin.logIn("", Constants.PASSWORD);
 
-        Assert.assertEquals(objLogin.msgErro.getText(), "Email ou senha incorretos. Saiba Mais");
+        ValidationResult.assertTextInElement(objLogin.msgErro,"Email ou senha incorretos. Saiba Mais");
+
 
     }
 
     @Test
-    public void TEST_RealizarLoginSenhaNaoInformada() {
+    public void TEST_realizarLoginSenhaNaoInformada() {
 
-        objLogin = new LoginPage();
+        objLogin = new LoginPage(driver);
 
-        objLogin.LogIn(Constants.USERNAME, "");
+        objLogin.logIn(Constants.USERNAME, "");
 
-        Assert.assertEquals(objLogin.msgErro.getText(), "Email ou senha incorretos. Saiba Mais");
+        ValidationResult.assertTextInElement(objLogin.msgErro,"Email ou senha incorretos. Saiba Mais");
 
     }
     @Test
-    public void TEST_RealizarLoginEmailInvalido() {
+    public void TEST_realizarLoginEmailInvalido() {
 
-        objLogin = new LoginPage();
+        objLogin = new LoginPage(driver);
 
-        objLogin.LogIn("teste23342@teste.com", Constants.PASSWORD);
+        objLogin.logIn("teste23342", Constants.PASSWORD);
 
-        ValidationResult.AssertTextInElement(objLogin.msgErro, "Email ou senha incorretos. Saiba Mais");
-
-    }
-
-    @Test
-    public void TEST_RealizarLoginSenhaInvalida() {
-
-        objLogin = new LoginPage();
-
-        objLogin.LogIn(Constants.USERNAME, "8888");
-
-        ValidationResult.AssertTextInElement(objLogin.msgErro, "Email ou senha incorretos. Saiba Mais");
+        ValidationResult.assertTextInElement(objLogin.msgErro,"Email ou senha incorretos. Saiba Mais");
 
     }
 
     @Test
-    public void TEST_RealizarLoginEmailESenhaInvalidos() throws InterruptedException {
+    public void TEST_realizarLoginSenhaInvalida() {
 
-        objLogin = new LoginPage();
+        objLogin = new LoginPage(driver);
 
-        objLogin.LogIn("teste555555aa@teste.com", "123456");
+        objLogin.logIn(Constants.USERNAME, "8888");
+
+        ValidationResult.assertTextInElement(objLogin.msgErro,"Email ou senha incorretos. Saiba Mais");
+
+    }
+
+    @Test
+    public void TEST_realizarLoginEmailESenhaInvalidos() {
+
+        objLogin = new LoginPage(driver);
+
+        objLogin.logIn("teste555555aa@teste.com", "123456");
 
 
-        ValidationResult.AssertTextInElement(objLogin.msgErro, "Email ou senha incorretos. Saiba Mais");
+        ValidationResult.assertTextInElement(objLogin.msgErro,"Email ou senha incorretos. Saiba Mais");
 
     }
 
 
 
     @Test
-    public void TEST_RealizarLoginLogout() {
+    public void TEST_realizarLoginLogout() {
 
-        objLogin = new LoginPage();
+        objLogin = new LoginPage(driver);
 
-        objLogin.LogIn("avaliacao_qa_samba@sambatech.com.br","123456789").LogOut();
+        objLogin.logIn("avaliacao_qa_samba@sambatech.com.br","123456789").logOut();
 
+        ValidationResult.elementIsVisible(objLogin.btnEntrar);
 
-        ValidationResult.ElementIsVisible(objLogin.btnEntrar);
 
     }
 }

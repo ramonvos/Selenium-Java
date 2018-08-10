@@ -1,24 +1,16 @@
 package com.ramonvos.pages;
+import com.ramonvos.constants.Constants;
 import com.ramonvos.selenium.SeleniumHelpers;
 import com.ramonvos.selenium.WaitForElement;
-import com.ramonvos.webdriver.TestBase;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Action;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class LoginPage  {
+public class LoginPage extends PageObject {
 
-
-     public LoginPage(){
-
-         PageFactory.initElements(TestBase.driver, this);
-     }
+    public LoginPage(WebDriver driver) {
+        super(driver);
+    }
 
     @FindBy(id ="inputEmail")
     public WebElement txtEmail;
@@ -32,54 +24,44 @@ public class LoginPage  {
     @FindBy(linkText = "Sair")
     public WebElement linkSair;
 
-    @FindBy(xpath ="(.//*[normalize-space(text()) and normalize-space(.)='Configurações'])[1]/following::span[1]")
-    public WebElement menuUsuario;
+    @FindBy(id ="mn-dashboard")
+    public WebElement menuDashboard;
 
-    @FindBy(xpath = "(.//*[normalize-space(text()) and normalize-space(.)='Automação Samba - Teste QA'])[1]/b[1]")
+    @FindBy(xpath = "//div[@id='wrap']/div/div[2]/form/ul[2]/li/a/span/b")
     public WebElement btnMenuUsuario;
 
     @FindBy(xpath = "//form[@id='form-login']/div")
     public WebElement msgErro;
 
+    public LoginPage navigateGoToLogin(){
 
-    public LoginPage LogIn(String email, String senha){
+        SeleniumHelpers.navigateGoToUrl(Constants.URL_BASE+Constants.URL_LOGIN);
 
-        SeleniumHelpers.TypeInTextBox(txtEmail,email);
-        SeleniumHelpers.TypeInTextBox(txtSenha,senha);
+        return new LoginPage(driver);
+    }
 
+    public LoginPage logIn(String email, String senha){
 
-        SeleniumHelpers.ClickButton(btnEntrar);
+        navigateGoToLogin();
 
+        SeleniumHelpers.typeInTextBox(txtEmail,email);
+        SeleniumHelpers.typeInTextBox(txtSenha,senha);
 
+        SeleniumHelpers.clickButton(btnEntrar);
 
+        return  new LoginPage(driver);
+    }
 
-        return  new LoginPage();
+    public LoginPage logOut(){
+
+        WaitForElement.waitForElementClickable(menuDashboard);
+
+        SeleniumHelpers.moteToElementAndClick(btnMenuUsuario);
+        SeleniumHelpers.moteToElementAndClick(linkSair);
+
+        WaitForElement.waitForElementClickable(txtEmail);
+        return  new LoginPage(driver);
 
     }
 
-    public LoginPage LogOut(){
-
-        WaitForElement.WaitForElementClickable(menuUsuario);
-        Actions action = new Actions(TestBase.driver);
-
-        action.moveToElement(btnMenuUsuario).moveToElement(btnMenuUsuario).click().build().perform();
-
-        linkSair.click();
-
-        WaitForElement.WaitForElementClickable(txtEmail);
-        return  new LoginPage();
-
-    }
-
-
-//
-//    public void Login(String email, String senha){
-//
-//        txtEmail.sendKeys(email);
-//        txtSenha.sendKeys(senha);
-//
-//        btnEntrar.click();
-//
-//
-//    }
 }
