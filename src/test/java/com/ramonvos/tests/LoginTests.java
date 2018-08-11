@@ -81,12 +81,9 @@ public class LoginTests extends TestBase {
 
         objLogin.logIn("teste555555aa@teste.com", "123456");
 
-
         ValidationResult.assertTextInElement(objLogin.msgErro,"Email ou senha incorretos. Saiba Mais");
 
     }
-
-
 
     @Test
     public void TEST_realizarLoginLogout() {

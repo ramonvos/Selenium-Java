@@ -2,6 +2,7 @@ package com.ramonvos.pages;
 import com.ramonvos.constants.Constants;
 import com.ramonvos.selenium.SeleniumHelpers;
 import com.ramonvos.selenium.WaitForElement;
+import com.ramonvos.utilities.Utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -56,8 +57,8 @@ public class LoginPage extends PageObject {
 
         WaitForElement.waitForElementClickable(menuDashboard);
 
-        SeleniumHelpers.moteToElementAndClick(btnMenuUsuario);
-        SeleniumHelpers.moteToElementAndClick(linkSair);
+        SeleniumHelpers.moveToElementAndClick(btnMenuUsuario);
+        SeleniumHelpers.moveToElementAndClick(linkSair);
 
         WaitForElement.waitForElementClickable(txtEmail);
         return  new LoginPage(driver);

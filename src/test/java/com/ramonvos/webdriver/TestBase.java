@@ -1,26 +1,20 @@
 package com.ramonvos.webdriver;
-
 import com.ramonvos.constants.BrowserType;
 import com.ramonvos.constants.Constants;
 import com.ramonvos.logger.Reporter;
 import com.ramonvos.selenium.SeleniumHelpers;
-
-import com.ramonvos.utilities.Utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.ITestContext;
-import org.testng.ITestNGMethod;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
-
-import java.util.List;
+import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
-
 
     protected static WebDriver driver;
     protected static int status;
@@ -29,42 +23,30 @@ public class TestBase {
 
         getBrowser(Constants.BROWSER);
         driver.navigate().to(Constants.URL_BASE);
-        //Reporter.createNewReport();
-
-
+        Reporter.createNewReport();
     }
 
     @BeforeTest
-    public void beforeTest(ITestContext  context){
-
-
+    public void beforeTest(){
 
     }
 
     @BeforeMethod
-    public void beforeMethod(ITestContext context){
+    public void beforeMethod(Method method, ITestContext context){
 
-        //ITestNGMethod[] tests = context.getAllTestMethods();
-        //String testName = tests[0].getMethodName();
-        //Reporter.createTest(testName);
+        String testName = method.getName();
+        String className = getClass().getName().substring(19);
+        Reporter.createTest(testName,className);
     }
 
     @AfterMethod
-    public void afterMethod(ITestContext context,ITestResult  result){
-        //ITestNGMethod[] tests = context.getAllTestMethods();
-        //String testName = tests[0].getMethodName();
-
-
+    public void afterMethod(ITestResult  result){
         try {
             if (result.getStatus() == ITestResult.SUCCESS) {
-
-                //Do something here
-                //Reporter.addStepsToPass(result.getStatus()+" - passed **********");
-                status = result.getStatus();
-
-            } //else //SeleniumHelpers.takeScreenshot("FAIL");
-            //Reporter.addStepsToFail(result.getStatus()+" - FAIL **********");
-            status = result.getStatus();
+                Reporter.addScreeshot(SeleniumHelpers.takeScreenshot());
+            }else {
+                Reporter.addScreeshot(SeleniumHelpers.takeScreenshot());
+            }
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -74,17 +56,12 @@ public class TestBase {
 
     @AfterTest
     public void afterTest() {
-        if (status == 1) {
-            //Reporter.addScreeshot(SeleniumHelpers.takeScreenshot("SUCCESS"));
-        }//else {
-        //Reporter.addScreeshot(SeleniumHelpers.takeScreenshot("FAIL"));
-          //  }
     }
 
 
     @AfterSuite
     public static void tearDown(){
-        //Reporter.generateReporter();
+        Reporter.generateReporter();
         driver.close();
 
     }
@@ -122,7 +99,5 @@ public class TestBase {
         FirefoxOptions options = new FirefoxOptions();
         return options;
     }
-
-
 
 }

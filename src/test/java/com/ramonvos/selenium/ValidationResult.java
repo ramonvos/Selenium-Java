@@ -1,5 +1,7 @@
 package com.ramonvos.selenium;
 
+import com.aventstack.extentreports.markuputils.Markup;
+import com.ramonvos.logger.Reporter;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
@@ -11,19 +13,21 @@ public class ValidationResult {
         WaitForElement.waitTextPresentInElement(element,text);
         Assert.assertEquals(element.getText(), text);
 
-        SeleniumHelpers.takeScreenshot("SUCCESS");
-    }catch (Exception ex){
-        SeleniumHelpers.takeScreenshot("FAIL");
-    }
+        Reporter.addStepsToPass("TEST PASSED");
+        }catch (Exception ex){
+            Reporter.addStepsToFail("FAILED TEST " + ex.getMessage());
+            Reporter.addStepsToException(ex);
+        }
 
     }
     public static void AssertElementContainsText(WebElement element ,String textPart) {
         try {
             Assert.assertTrue(element.getText().contains(textPart));
 
-            SeleniumHelpers.takeScreenshot("SUCCESS");
-        } catch (Exception ex) {
-            SeleniumHelpers.takeScreenshot("FAIL");
+            Reporter.addStepsToPass("TEST PASSED");
+        }catch (Exception ex){
+            Reporter.addStepsToFail("FAILED TEST " + ex.getMessage());
+            Reporter.addStepsToException(ex);
         }
     }
 
@@ -31,9 +35,10 @@ public class ValidationResult {
         try {
             Assert.assertTrue(element.isDisplayed());
 
-            SeleniumHelpers.takeScreenshot("SUCCESS");
+            Reporter.addStepsToPass("TEST PASSED");
         }catch (Exception ex){
-            SeleniumHelpers.takeScreenshot("FAIL");
+            Reporter.addStepsToFail("FAILED TEST " + ex.getMessage());
+            Reporter.addStepsToException(ex);
         }
 
     }

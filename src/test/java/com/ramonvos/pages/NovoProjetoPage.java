@@ -39,7 +39,7 @@ public class NovoProjetoPage extends PageObject {
 
         WaitForElement.waitForElementClickable(menuProject);
 
-        SeleniumHelpers.moteToElementAndClick(menuProject);
+        SeleniumHelpers.moveToElementAndClick(menuProject);
         SeleniumHelpers.clickButton(linkNovoProjeto);
 
         WaitForElement.waitForElementClickable(btnCriarProjeto);
