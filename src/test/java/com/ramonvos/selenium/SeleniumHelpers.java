@@ -58,7 +58,7 @@ public class SeleniumHelpers extends TestBase {
         act.moveToElement(element).click().perform();
 
 
-            Reporter.addStepsToPass("Method => moteToElementAndClick - Element =>  " + Utils.getAttributeElement(element));
+            Reporter.addStepsToPass("Method => moveToElementAndClick - Element =>  " + Utils.getAttributeElement(element));
     }catch (Exception ex){
             Reporter.addStepsToFail("FAIL " + ex.getMessage());
             Reporter.addStepsToException(ex);

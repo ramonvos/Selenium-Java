@@ -8,6 +8,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.NoSuchElementException;
 
 public class Utils {
 
@@ -52,7 +53,7 @@ public class Utils {
                 elementAttibute = element.getAttribute("id");
             }
 
-        }catch(NullPointerException nexc) {
+        }catch(NoSuchElementException nexc) {
             if(hasValue(element.getAttribute("name"))){
                 elementAttibute = element.getAttribute("name");
             }

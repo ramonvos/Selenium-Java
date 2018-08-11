@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="26288acf-3615-4323-b2a0-d5162c5614f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,13 +30,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9748" />
+          <entry key="java" value="9767" />
           <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9748" />
+          <entry key="JAVA" value="9767" />
           <entry key="XML" value="16" />
         </counts>
       </usages-collector>
@@ -62,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-196">
-              <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+            <state relative-caret-position="110">
+              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,20 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+            <state relative-caret-position="113">
+              <caret line="60" column="105" lean-forward="true" selection-start-line="60" selection-start-column="105" selection-end-line="60" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,9 +97,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="289">
               <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -222,10 +223,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/NovoProjetoPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java" />
       </list>
     </option>
   </component>
@@ -341,7 +342,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533959887630" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533960589029" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -562,12 +563,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTests_TEST_realizarLoginEmailInvalido - 2018.08.10 at 23h 42m 31s.xml">
-      <configuration name="LoginTests.TEST_realizarLoginEmailInvalido" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests_TEST_realizarLoginSenhaNaoInformada - 2018.08.10 at 23h 43m 00s.xml">
-      <configuration name="LoginTests.TEST_realizarLoginSenhaNaoInformada" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginTests_TEST_realizarLoginSenhaNaoInformada - 2018.08.10 at 23h 55m 01s.xml">
       <configuration name="LoginTests.TEST_realizarLoginSenhaNaoInformada" configurationId="TestNG" />
     </history-entry>
@@ -590,6 +585,12 @@
       <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_default_ - 2018.08.11 at 00h 43m 03s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_default_ - 2018.08.11 at 01h 00m 19s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_default_ - 2018.08.11 at 01h 04m 13s.xml">
       <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1016,16 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/NovoProjetoTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -1046,10 +1037,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+        <state relative-caret-position="289">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1058,18 +1049,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+        <state relative-caret-position="110">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="113">
+          <caret line="60" column="105" lean-forward="true" selection-start-line="60" selection-start-column="105" selection-end-line="60" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

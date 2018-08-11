@@ -47,9 +47,9 @@ public class Reporter extends TestBase{
 
     public static void addStepsToPass(String text){
 
-        Markup m = MarkupHelper.createLabel(text, ExtentColor.GREEN);
 
-        test.pass(m);
+
+        test.pass(text);
 
     }
     public static void addStepsToPassMarkup(String text){
