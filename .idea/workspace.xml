@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26288acf-3615-4323-b2a0-d5162c5614f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/NovoProjetoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/NovoProjetoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/logger/Reporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/logger/Reporter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/pages/NovoProjetoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/pages/NovoProjetoPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/selenium/SeleniumHelpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/selenium/SeleniumHelpers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/selenium/ValidationResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/selenium/ValidationResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/tests/LoginTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/utilities/Utils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/utilities/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/utilities/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/webdriver/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/webdriver/TestBase.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,13 +29,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9658" />
+          <entry key="java" value="9748" />
           <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9658" />
+          <entry key="JAVA" value="9748" />
           <entry key="XML" value="16" />
         </counts>
       </usages-collector>
@@ -79,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="56" column="65" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
+            <state relative-caret-position="-196">
+              <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-224">
+            <state relative-caret-position="-210">
               <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+            <state relative-caret-position="187">
+              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="399">
+              <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -346,11 +329,7 @@
             <path>
               <item name="Ramonvos-SeleniumWebdriverFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ramonvos-SeleniumWebdriverFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ramonvos" type="462c0819:PsiDirectoryNode" />
-              <item name="webdriver" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -362,7 +341,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533958741162" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533959887630" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -583,15 +562,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_default_ - 2018.08.10 at 23h 23m 54s.xml">
-      <configuration name="&lt;default&gt;" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests_TEST_realizarLoginEmailESenhaInvalidos - 2018.08.10 at 23h 31m 32s.xml">
-      <configuration name="LoginTests.TEST_realizarLoginEmailESenhaInvalidos" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests_TEST_realizarLoginEmailESenhaInvalidos - 2018.08.10 at 23h 42m 10s.xml">
-      <configuration name="LoginTests.TEST_realizarLoginEmailESenhaInvalidos" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginTests_TEST_realizarLoginEmailInvalido - 2018.08.10 at 23h 42m 31s.xml">
       <configuration name="LoginTests.TEST_realizarLoginEmailInvalido" configurationId="TestNG" />
     </history-entry>
@@ -611,6 +581,15 @@
       <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_default_ - 2018.08.11 at 00h 26m 32s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_TEST_realizarLoginEmailESenhaInvalidos - 2018.08.11 at 00h 36m 39s.xml">
+      <configuration name="LoginTests.TEST_realizarLoginEmailESenhaInvalidos" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_default_ - 2018.08.11 at 00h 38m 53s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_default_ - 2018.08.11 at 00h 43m 03s.xml">
       <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -681,7 +660,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java</url>
-          <line>86</line>
+          <line>97</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
@@ -1027,16 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1069,8 +1038,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="399">
+          <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1079,8 +1058,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="56" column="65" selection-start-line="56" selection-start-column="65" selection-end-line="56" selection-end-column="65" />
+        <state relative-caret-position="-196">
+          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1089,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        <state relative-caret-position="187">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

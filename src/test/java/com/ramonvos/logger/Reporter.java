@@ -51,15 +51,26 @@ public class Reporter extends TestBase{
 
         test.pass(m);
 
-}
+    }
+    public static void addStepsToPassMarkup(String text){
+
+        Markup markup = MarkupHelper.createLabel(text, ExtentColor.GREEN);
+
+        test.pass(markup);
+
+    }
     public static void addStepsToFail(String text){
 
-        Markup m = MarkupHelper.createLabel(text, ExtentColor.RED);
-
-        test.fail(m);
+        test.fail(text);
         Assert.assertTrue(false);
     }
+    public static void addStepsToFailMarkup(String text){
 
+        Markup markup = MarkupHelper.createLabel(text, ExtentColor.RED);
+
+        test.fail(markup);
+        Assert.assertTrue(false);
+    }
     public static void addStepsToException(Exception ex){
 
         test.log(Status.FAIL,ex);

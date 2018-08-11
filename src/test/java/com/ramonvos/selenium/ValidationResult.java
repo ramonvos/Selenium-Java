@@ -7,15 +7,17 @@ import org.testng.Assert;
 
 public class ValidationResult {
 
+
+
     public static void assertTextInElement(WebElement element, String text)  {
 
         try {
         WaitForElement.waitTextPresentInElement(element,text);
         Assert.assertEquals(element.getText(), text);
 
-        Reporter.addStepsToPass("TEST PASSED");
+        Reporter.addStepsToPassMarkup("TEST PASSED");
         }catch (Exception ex){
-            Reporter.addStepsToFail("FAILED TEST " + ex.getMessage());
+            Reporter.addStepsToFailMarkup("FAILED TEST " + ex.getMessage());
             Reporter.addStepsToException(ex);
         }
 
@@ -24,9 +26,9 @@ public class ValidationResult {
         try {
             Assert.assertTrue(element.getText().contains(textPart));
 
-            Reporter.addStepsToPass("TEST PASSED");
+            Reporter.addStepsToPassMarkup("TEST PASSED");
         }catch (Exception ex){
-            Reporter.addStepsToFail("FAILED TEST " + ex.getMessage());
+            Reporter.addStepsToFailMarkup("FAILED TEST " + ex.getMessage());
             Reporter.addStepsToException(ex);
         }
     }
@@ -35,7 +37,7 @@ public class ValidationResult {
         try {
             Assert.assertTrue(element.isDisplayed());
 
-            Reporter.addStepsToPass("TEST PASSED");
+            Reporter.addStepsToPassMarkup("TEST PASSED");
         }catch (Exception ex){
             Reporter.addStepsToFail("FAILED TEST " + ex.getMessage());
             Reporter.addStepsToException(ex);
