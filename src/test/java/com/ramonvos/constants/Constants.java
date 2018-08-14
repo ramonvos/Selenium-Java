@@ -4,6 +4,7 @@ public class Constants {
 
     public static final String URL_BASE = "http://web1.qa.sambatech.com:10000/";
     public  static final String URL_LOGIN = "auth/login";
+    public  static final String URL_CAMPANHA = "#monetization/new";
 
     public static final int DEFAULT_TIME_OUT = 60;
 
