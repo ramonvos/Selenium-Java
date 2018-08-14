@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26288acf-3615-4323-b2a0-d5162c5614f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/EnviarVideosPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/EnviarVideosTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/constants/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/NovoProjetoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/NovoProjetoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/PageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/WaitForElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/WaitForElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/NovoProjetoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/NovoProjetoTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/constants/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/logger/Reporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/logger/Reporter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/pages/NovoProjetoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/pages/NovoProjetoPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/selenium/SeleniumHelpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/selenium/SeleniumHelpers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/utilities/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/utilities/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/webdriver/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/webdriver/TestBase.class" afterDir="false" />
-    </list>
+    <list default="true" id="26288acf-3615-4323-b2a0-d5162c5614f7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +14,7 @@
     <session id="1856113634">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -94,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-411">
-              <caret line="43" column="60" lean-forward="true" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
+            <state relative-caret-position="201">
+              <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -333,7 +313,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534223182473" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534223376739" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -594,7 +574,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -605,7 +584,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3786885" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3295082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1055,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-411">
-          <caret line="43" column="60" lean-forward="true" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
+        <state relative-caret-position="201">
+          <caret line="79" column="41" lean-forward="true" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
