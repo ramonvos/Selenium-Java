@@ -1,14 +1,9 @@
 package com.ramonvos.tests;
-
-
 import com.ramonvos.constants.Constants;
 import com.ramonvos.pages.LoginPage;
 import com.ramonvos.selenium.ValidationResult;
 import com.ramonvos.selenium.WaitForElement;
 import com.ramonvos.webdriver.TestBase;
-
-import org.testng.Assert;
-
 import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {

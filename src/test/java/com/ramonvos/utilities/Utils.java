@@ -64,9 +64,10 @@ public class Utils {
             }else return "Elemento sem identificador";
         }
 
-
-
-
-
     }
+    public static String getCurrentProjectPath(){
+
+        return System.getProperty("user.dir");
+    }
+
 }

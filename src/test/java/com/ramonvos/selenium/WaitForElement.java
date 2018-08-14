@@ -1,5 +1,7 @@
 package com.ramonvos.selenium;
 
+import com.ramonvos.constants.Constants;
+import com.ramonvos.logger.Reporter;
 import com.ramonvos.webdriver.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -12,16 +14,20 @@ public class WaitForElement extends TestBase {
     private static WebDriverWait wait;
 
     public static void waitForElementClickable(WebElement element){
-
-        wait = new WebDriverWait(TestBase.driver, 10);
-        wait.until(ExpectedConditions.elementToBeClickable(element));
+    try {
+        wait = new WebDriverWait(TestBase.driver, Constants.DEFAULT_TIME_OUT);
+        wait.until(ExpectedConditions.elementToBeClickable(element));}
+        catch (Exception ex)
+        {
+            Reporter.addStepsToException(ex);
+        }
     }
     public static void waitForElementClickable(By locator){
         try{
-            wait = new WebDriverWait(TestBase.driver, 10);
+            wait = new WebDriverWait(TestBase.driver, Constants.DEFAULT_TIME_OUT);
             wait.until(ExpectedConditions.elementToBeClickable(locator));
-        }catch (NoSuchElementException ex){
-
+        }catch (Exception ex){
+            Reporter.addStepsToException(ex);
         }
 
     }
@@ -29,10 +35,10 @@ public class WaitForElement extends TestBase {
 
     public static void waitTextPresentInElement(WebElement element, String text){
         try{
-            wait = new WebDriverWait(TestBase.driver, 30);
+            wait = new WebDriverWait(TestBase.driver, Constants.DEFAULT_TIME_OUT);
             wait.until(ExpectedConditions.textToBePresentInElement(element,text));
-        }catch (NoSuchElementException ex){
-
+        }catch (Exception ex){
+            Reporter.addStepsToException(ex);
         }
 
     }

@@ -26,10 +26,10 @@ public class Reporter extends TestBase{
 
     //Create an extent report instance
     public static void createNewReport() {
-
+        String pathProject =  Utils.getCurrentProjectPath();
        if (extent == null) {
 
-            fileName = "C:\\Selenium\\Screenshots\\Reporter-test " + Utils.getCurrentTimeStamp() + ".html";
+            fileName = pathProject+"\\output\\Reporter-test " + Utils.getCurrentTimeStamp() + ".html";
             ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(fileName);
             htmlReporter.config().setReportName(fileName);
 

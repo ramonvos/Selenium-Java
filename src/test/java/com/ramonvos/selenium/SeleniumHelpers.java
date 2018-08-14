@@ -20,7 +20,7 @@ public class SeleniumHelpers extends TestBase {
 
        driver.navigate().to(url);
 
-        Reporter.addStepsToPass("navigateGoToUrl");
+        Reporter.addStepsToPass("navigateGoToUrl => "+ url);
 
     }
 
@@ -32,7 +32,7 @@ public class SeleniumHelpers extends TestBase {
             element.sendKeys(value);
             }else value = Utils.replaceEmptyValue(value);
 
-            Reporter.addStepsToPass("Method => typeInTextBox - Element =>  " + Utils.getAttributeElement(element) +" - Valor => " + value);
+            Reporter.addStepsToPass("Method => typeInTextBox - Element =>  " + Utils.getAttributeElement(element) +" - Value => " + value);
         }catch (Exception ex){
             Reporter.addStepsToFail("FAIL " + ex.getMessage());
             Reporter.addStepsToException(ex);
@@ -68,11 +68,13 @@ public class SeleniumHelpers extends TestBase {
     }
 
     public static void executeJavaScript(String script)
-    {try {
+    {
+        try {
         JavascriptExecutor executor = ((JavascriptExecutor)driver);
-
         executor.executeScript(script);
+
         Reporter.addStepsToPass("Method => executeJavaScript - Script =>  " + script);
+
     }catch (Exception ex){
         Reporter.addStepsToFail("FAIL " + ex.getMessage());
         Reporter.addStepsToException(ex);
@@ -81,8 +83,8 @@ public class SeleniumHelpers extends TestBase {
 }
 
     public static String takeScreenshot() {
-
-        String fileName = "C:\\Selenium\\Screenshots\\screenshot-"+status+"-test "+Utils.getCurrentTimeStamp()+ ".png";
+        String pathProject = Utils.getCurrentProjectPath();
+        String fileName = pathProject+"\\output\\screenshots\\screenshot-test "+Utils.getCurrentTimeStamp()+ ".png";
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
             FileUtils.copyFile(scrFile, new File(fileName));

@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26288acf-3615-4323-b2a0-d5162c5614f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/EnviarVideosPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/EnviarVideosTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/constants/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/NovoProjetoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/NovoProjetoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/PageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/WaitForElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/WaitForElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/NovoProjetoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/NovoProjetoTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/constants/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/logger/Reporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/logger/Reporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/pages/NovoProjetoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/pages/NovoProjetoPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/selenium/SeleniumHelpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/selenium/SeleniumHelpers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/utilities/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/utilities/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ramonvos/webdriver/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ramonvos/webdriver/TestBase.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,41 +34,44 @@
     <session id="1856113634">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9767" />
+          <entry key="dummy" value="9" />
+          <entry key="java" value="11790" />
           <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9767" />
+          <entry key="JAVA" value="11790" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="XML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="128" />
+          <entry key="class" value="131" />
           <entry key="iml" value="1" />
-          <entry key="java" value="106" />
+          <entry key="java" value="130" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="128" />
+          <entry key="CLASS" value="131" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="106" />
+          <entry key="JAVA" value="130" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -61,34 +80,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/NovoProjetoTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="64" column="61" selection-start-line="64" selection-start-column="61" selection-end-line="64" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="60" column="105" lean-forward="true" selection-start-line="60" selection-start-column="105" selection-end-line="60" selection-end-column="105" />
+            <state relative-caret-position="17">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,22 +92,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="-411">
+              <caret line="43" column="60" lean-forward="true" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,10 +106,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+            <state relative-caret-position="-34">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/OnDemandTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/EnviarVideosPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="30" column="55" lean-forward="true" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            <state relative-caret-position="256">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,15 +151,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/ConfiguracoesTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -161,10 +162,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/NovoProjetoPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="-264">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/MonitizacaoPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,8 +188,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/PageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="136">
+              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,20 +228,23 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/loginTests/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/projetoTests/NovoProjetoTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/constants/BrowserType.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/WaitForElement.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/constants/Constants.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/NovoProjetoTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/helpers/Reporter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/PageObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/NovoProjetoPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/NovoProjetoTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/tests/EnviarVideosTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/constants/Constants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/WaitForElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/EnviarVideosPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/PageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/NovoProjetoPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ramonvos/pages/MonitizacaoPage.java" />
       </list>
     </option>
   </component>
@@ -249,6 +267,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,15 +310,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ramonvos" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ramonvos-SeleniumWebdriverFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ramonvos-SeleniumWebdriverFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ramonvos" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -312,37 +324,16 @@
             <path>
               <item name="Ramonvos-SeleniumWebdriverFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ramonvos-SeleniumWebdriverFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ramonvos" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ramonvos-SeleniumWebdriverFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ramonvos-SeleniumWebdriverFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ramonvos" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ramonvos-SeleniumWebdriverFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ramonvos-SeleniumWebdriverFramework" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533960589029" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534222832985" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -362,6 +353,56 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration name="EnviarVideosTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ramonvos-SeleniumWebdriverFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ramonvos.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.ramonvos.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.ramonvos.tests.EnviarVideosTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnviarVideosTests.TEST_enviarVideosSucesso" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ramonvos-SeleniumWebdriverFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ramonvos.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.ramonvos.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.ramonvos.tests.EnviarVideosTests" />
+      <option name="METHOD_NAME" value="TEST_enviarVideosSucesso" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ramonvos-SeleniumWebdriverFramework" />
       <extension name="coverage">
@@ -402,58 +443,6 @@
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="0" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.TEST_realizarLoginEmailInvalido" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ramonvos-SeleniumWebdriverFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ramonvos.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.ramonvos.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.ramonvos.tests.LoginTests" />
-      <option name="METHOD_NAME" value="TEST_realizarLoginEmailInvalido" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.TEST_realizarLoginEmailNaoInformado" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ramonvos-SeleniumWebdriverFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ramonvos.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.ramonvos.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.ramonvos.tests.LoginTests" />
-      <option name="METHOD_NAME" value="TEST_realizarLoginEmailNaoInformado" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -535,17 +524,17 @@
       <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="TestNG.LoginTests" />
       <item itemvalue="TestNG.LoginTests.TEST_realizarLoginEmailESenhaInvalidos" />
-      <item itemvalue="TestNG.LoginTests.TEST_realizarLoginEmailNaoInformado" />
-      <item itemvalue="TestNG.LoginTests.TEST_realizarLoginEmailInvalido" />
       <item itemvalue="TestNG.LoginTests.TEST_realizarLoginSenhaNaoInformada" />
+      <item itemvalue="TestNG.EnviarVideosTests.TEST_enviarVideosSucesso" />
+      <item itemvalue="TestNG.EnviarVideosTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EnviarVideosTests" />
+        <item itemvalue="TestNG.EnviarVideosTests.TEST_enviarVideosSucesso" />
         <item itemvalue="TestNG.LoginTests.TEST_realizarLoginEmailESenhaInvalidos" />
-        <item itemvalue="TestNG.LoginTests.TEST_realizarLoginSenhaNaoInformada" />
-        <item itemvalue="TestNG.LoginTests.TEST_realizarLoginEmailInvalido" />
         <item itemvalue="TestNG.LoginTests" />
-        <item itemvalue="TestNG.LoginTests.TEST_realizarLoginEmailNaoInformado" />
+        <item itemvalue="TestNG.LoginTests.TEST_realizarLoginSenhaNaoInformada" />
       </list>
     </recent_temporary>
   </component>
@@ -563,34 +552,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTests_TEST_realizarLoginSenhaNaoInformada - 2018.08.10 at 23h 55m 01s.xml">
-      <configuration name="LoginTests.TEST_realizarLoginSenhaNaoInformada" configurationId="TestNG" />
+    <history-entry file="EnviarVideosTests_TEST_enviarVideosSucesso - 2018.08.14 at 00h 32m 33s.xml">
+      <configuration name="EnviarVideosTests.TEST_enviarVideosSucesso" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_TEST_realizarLoginSenhaNaoInformada - 2018.08.10 at 23h 57m 06s.xml">
-      <configuration name="LoginTests.TEST_realizarLoginSenhaNaoInformada" configurationId="TestNG" />
+    <history-entry file="EnviarVideosTests_TEST_enviarVideosSucesso - 2018.08.14 at 00h 37m 20s.xml">
+      <configuration name="EnviarVideosTests.TEST_enviarVideosSucesso" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_TEST_realizarLoginSenhaNaoInformada - 2018.08.11 at 00h 10m 06s.xml">
-      <configuration name="LoginTests.TEST_realizarLoginSenhaNaoInformada" configurationId="TestNG" />
+    <history-entry file="EnviarVideosTests_TEST_enviarVideosSucesso - 2018.08.14 at 00h 38m 12s.xml">
+      <configuration name="EnviarVideosTests.TEST_enviarVideosSucesso" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default_ - 2018.08.11 at 00h 15m 37s.xml">
-      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    <history-entry file="EnviarVideosTests_TEST_enviarVideosSucesso - 2018.08.14 at 00h 42m 38s.xml">
+      <configuration name="EnviarVideosTests.TEST_enviarVideosSucesso" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default_ - 2018.08.11 at 00h 26m 32s.xml">
-      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    <history-entry file="EnviarVideosTests_TEST_enviarVideosSucesso - 2018.08.14 at 00h 48m 18s.xml">
+      <configuration name="EnviarVideosTests.TEST_enviarVideosSucesso" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_TEST_realizarLoginEmailESenhaInvalidos - 2018.08.11 at 00h 36m 39s.xml">
-      <configuration name="LoginTests.TEST_realizarLoginEmailESenhaInvalidos" configurationId="TestNG" />
+    <history-entry file="EnviarVideosTests_TEST_enviarVideosSucesso - 2018.08.14 at 00h 56m 32s.xml">
+      <configuration name="EnviarVideosTests.TEST_enviarVideosSucesso" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default_ - 2018.08.11 at 00h 38m 53s.xml">
-      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    <history-entry file="EnviarVideosTests_TEST_enviarVideosSucesso - 2018.08.14 at 00h 58m 11s.xml">
+      <configuration name="EnviarVideosTests.TEST_enviarVideosSucesso" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default_ - 2018.08.11 at 00h 43m 03s.xml">
-      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    <history-entry file="EnviarVideosTests - 2018.08.14 at 01h 05m 09s.xml">
+      <configuration name="EnviarVideosTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default_ - 2018.08.11 at 01h 00m 19s.xml">
-      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    <history-entry file="EnviarVideosTests - 2018.08.14 at 01h 12m 36s.xml">
+      <configuration name="EnviarVideosTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_default_ - 2018.08.11 at 01h 04m 13s.xml">
+    <history-entry file="_default_ - 2018.08.14 at 01h 53m 38s.xml">
       <configuration name="&lt;default&gt;" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -607,7 +596,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -616,7 +605,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3786885" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3295082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -643,13 +632,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java</url>
-          <line>28</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/NovoProjetoTests.java</url>
-          <line>51</line>
+          <line>37</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
@@ -665,37 +654,10 @@
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/SuiteRunnerMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/ExitCodeListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInstance.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/IInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -787,20 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/constants/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/OnDemandTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestNgMethodUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -833,9 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="166" selection-start-line="166" selection-end-line="166" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -909,6 +854,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="349" column="16" selection-start-line="349" selection-start-column="16" selection-end-line="349" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestNG.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="919" selection-start-line="919" selection-end-line="919" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -923,45 +909,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="349" column="16" selection-start-line="349" selection-start-column="16" selection-end-line="349" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#2034#2035#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestNG.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="919" selection-start-line="919" selection-end-line="919" />
-          <folding>
-            <element signature="e#32680#32681#0" expanded="true" />
-            <element signature="e#32726#32727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="296" column="16" selection-start-line="296" selection-start-column="16" selection-end-line="296" selection-end-column="16" />
+        <state relative-caret-position="162">
+          <caret line="343" selection-start-line="343" selection-end-line="343" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/WaitForElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="59">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/EnviarVideosTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -975,52 +972,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/PageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/NovoProjetoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/NovoProjetoTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="64" column="61" selection-start-line="64" selection-start-column="61" selection-end-line="64" selection-end-column="61" />
+        <state relative-caret-position="17">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1029,28 +984,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        <state relative-caret-position="-34">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/ValidationResult.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/tests/OnDemandTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/PageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/logger/Reporter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/NovoProjetoPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        <state relative-caret-position="-264">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/MonitizacaoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/pages/EnviarVideosPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="30" column="55" lean-forward="true" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/webdriver/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1059,18 +1055,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/selenium/SeleniumHelpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="60" column="105" lean-forward="true" selection-start-line="60" selection-start-column="105" selection-end-line="60" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ramonvos/utilities/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        <state relative-caret-position="-411">
+          <caret line="43" column="60" lean-forward="true" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

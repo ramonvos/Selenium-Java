@@ -3,6 +3,7 @@ import com.ramonvos.constants.BrowserType;
 import com.ramonvos.constants.Constants;
 import com.ramonvos.logger.Reporter;
 import com.ramonvos.selenium.SeleniumHelpers;
+import com.ramonvos.utilities.Utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -81,8 +82,8 @@ public class TestBase {
 
 
     public static ChromeOptions getChromeOptions(){
-
-        System.setProperty("webdriver.chrome.driver", Constants.PATH_CHROME);
+        String pathProject = Utils.getCurrentProjectPath();
+        System.setProperty("webdriver.chrome.driver", pathProject+Constants.PATH_CHROME);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
 
@@ -94,8 +95,8 @@ public class TestBase {
     }
 
     public static FirefoxOptions getFirefoxOptions(){
-
-        System.setProperty("webdriver.gecko.driver", Constants.PATH_FIREFOX);
+        String pathProject = Utils.getCurrentProjectPath();
+        System.setProperty("webdriver.gecko.driver", pathProject+Constants.PATH_FIREFOX);
         FirefoxOptions options = new FirefoxOptions();
         return options;
     }
