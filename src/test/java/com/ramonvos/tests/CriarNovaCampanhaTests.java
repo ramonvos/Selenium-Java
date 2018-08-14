@@ -30,7 +30,7 @@ public class CriarNovaCampanhaTests extends TestBase {
 
         objCampanha.criarNovaCampanha(nome,arquivo,url,url,data,hora,data,hora, meta,preco);
 
-        ValidationResult(objCampanha.msg)
+        ValidationResult.assertTextInElement(objCampanha.msgSucesso,"Campanha cadastrada com sucesso.");
 
     }
 }

@@ -48,7 +48,8 @@ public class NovaCampanhaPage extends PageObject {
     @FindBy(name = "//button[@type='submit']")
     public WebElement btnCriarCampanha;
 
-
+    @FindBy(name = "")
+    public WebElement msgSucesso;
 
     public NovaCampanhaPage criarNovaCampanha(String nome, String anuncio, String urlDes, String urlRas, String datai, String horai, String dataf, String horaf, String meta, String preco){
 
