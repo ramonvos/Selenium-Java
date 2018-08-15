@@ -40,6 +40,7 @@ After running the tests, the reporter is generated in the:
 Ramonvos-SeleniumWebdriverFramework\output\Reporter-test [currentDateTime].html
 
 ## Logger Samples:
-![](https://uploaddeimagens.com.br/images/001/559/169/full/Imagem_13.png)
-![](https://uploaddeimagens.com.br/images/001/559/172/full/Imagem_15.png)
-![](https://uploaddeimagens.com.br/images/001/559/173/full/Imagem_17.png)
+![](https://uploaddeimagens.com.br/images/001/560/678/full/Imagem_100.png)
+![](https://uploaddeimagens.com.br/images/001/560/679/full/Imagem_111.png)
+![](https://uploaddeimagens.com.br/images/001/560/681/full/Imagem_121.png)
+![](https://uploaddeimagens.com.br/images/001/560/683/full/Imagem_131.png)
