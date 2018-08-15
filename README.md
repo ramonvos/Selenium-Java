@@ -28,10 +28,15 @@ git clone https://github.com/ramonvos/Selenium-Java.git
       logger/                         # Folder contains advanced html logger using Extent Reports implementation
         Reporter.java
         
+      contants/                       # Folder contains parameters and credencials to login in app (Constants data)
+        Constants.java
+        
       
       
       
-Advanced Logger .html path:
+## Advanced Logger.html (ExtentReports)
+
+After running the tests, the reporter is generated in the:
 Ramonvos-SeleniumWebdriverFramework\output\Reporter-test [currentDateTime].html
 
 ## Logger Samples:
