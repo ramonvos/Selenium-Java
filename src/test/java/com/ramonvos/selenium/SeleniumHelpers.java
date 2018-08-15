@@ -8,6 +8,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -64,6 +66,24 @@ public class SeleniumHelpers extends TestBase {
             Reporter.addStepsToException(ex);
     }
 
+
+    }
+
+    public static void selectDropDownList(WebElement element, String value){
+        try {
+
+            if (Utils.hasValue(value)){
+                WaitForElement.waitForElementClickable(element);
+
+                new Select(element).selectByVisibleText(value);
+
+            }else value = Utils.replaceEmptyValue(value);
+
+            Reporter.addStepsToPass("Method => selectDropDownList - Element =>  " + Utils.getAttributeElement(element) +" - Value => " + value);
+        }catch (Exception ex){
+            Reporter.addStepsToFail("FAIL " + ex.getMessage());
+            Reporter.addStepsToException(ex);
+        }
 
     }
 

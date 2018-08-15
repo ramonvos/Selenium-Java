@@ -4,14 +4,13 @@ import com.ramonvos.constants.Constants;
 import com.ramonvos.logger.Reporter;
 import com.ramonvos.webdriver.TestBase;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WaitForElement extends TestBase {
 
-    private static WebDriverWait wait;
+    private static WebDriverWait wait = new WebDriverWait(TestBase.driver,Constants.DEFAULT_TIME_OUT);
 
     public static void waitForElementClickable(WebElement element){
     try {
@@ -32,7 +31,6 @@ public class WaitForElement extends TestBase {
 
     }
 
-
     public static void waitTextPresentInElement(WebElement element, String text){
         try{
             wait = new WebDriverWait(TestBase.driver, Constants.DEFAULT_TIME_OUT);
@@ -42,5 +40,17 @@ public class WaitForElement extends TestBase {
         }
 
     }
+
+
+    public static void waitForElementNotPresent(WebElement element, int timeout){
+        try{
+            wait = new WebDriverWait(TestBase.driver, timeout);
+            wait.until(ExpectedConditions.invisibilityOfAllElements(element));
+        }catch (Exception ex){
+            Reporter.addStepsToException(ex);
+        }
+
+    }
+
 
 }
